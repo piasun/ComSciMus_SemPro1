@@ -1,0 +1,7 @@
+:root {
+  --text-paragraph: "Roboto";
+  --text-heading: "Roboto";
+  --color-header-footer: #202020;
+  --main-color: #075f5f;
+  --animation-curve: cubic-bezier(1, 0, 0, 1);
+}
