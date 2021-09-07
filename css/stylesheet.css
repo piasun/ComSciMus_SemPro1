@@ -1,0 +1,137 @@
+@import "imports/links.css";
+@import "imports/variables.css";
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+body {
+  font-family: var(--text-paragraph), sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  margin: 0px auto;
+}
+
+h1,
+h2,
+h3 {
+  font-size: var(--text-heading);
+}
+
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*header*/
+
+header img {
+  width: 90px;
+}
+
+.logo {
+  padding: 10px;
+}
+
+nav {
+  margin-left: 25px;
+  display: none;
+  position: fixed;
+  width: 100%;
+  background-color: var(--color-header-footer);
+  z-index: 1000;
+  right: 0px;
+  text-align: center;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+nav li {
+  display: block;
+  padding: 20px 30px;
+}
+
+#menu-icon {
+  display: none;
+}
+
+.menu-btn {
+  font-size: 30px;
+  float: right;
+  margin: 40px;
+  cursor: pointer;
+}
+
+#menu-icon:checked ~ nav {
+  display: block;
+}
+
+header,
+footer {
+  background-color: var(--color-header-footer);
+  color: white;
+}
+
+/*footer*/
+footer {
+  display: block;
+}
+
+footer img {
+  width: 150px;
+}
+
+.footer-container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-between;
+  align-items: center;
+}
+
+.footer-container-column,
+.visit-container-column {
+  margin: 0 10px;
+  min-width: 200px;
+  padding: 10px;
+}
+
+.footer-contact {
+  font-size: 1em;
+  text-align: left;
+}
+
+.footer-opening-hours tr,
+.visit-opening-hours tr {
+  text-align: left;
+}
+
+.footer-opening-hours td,
+.visit-opening-hours td {
+  text-align: right;
+}
+
+.footer-opening-hours td,
+.visit-opening-hours td {
+  padding: 0 0 0 15px;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
