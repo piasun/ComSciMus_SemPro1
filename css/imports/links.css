@@ -20,7 +20,9 @@ a:hover {
 
 footer a {
   color: white;
-  padding: 5px;
+  padding: 7px 13px;
   font-weight: bold;
   display: block;
+  max-width: 100px;
+  border-radius: 3px;
 }

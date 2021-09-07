@@ -13,6 +13,7 @@
   nav {
     display: block;
     position: static;
+    background: none;
   }
 
   nav li {
