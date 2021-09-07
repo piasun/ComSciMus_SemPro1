@@ -1,3 +1,29 @@
+@media (min-width: 600px) {
+  .home_events_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home_explore_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .rounded {
+    display: none;
+  }
+
+  .main_events img,
+  .main_explore img {
+    display: inline-block;
+  }
+
+  .home_events,
+  .home_explore {
+    max-width: 455px;
+  }
+}
+
 @media (min-width: 820px) {
   .menu-btn {
     display: none;

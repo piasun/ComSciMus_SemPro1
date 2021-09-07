@@ -2,11 +2,12 @@
 @import "imports/variables.css";
 
 @font-face {
-  font-family: "Roboto", sans-serif;
-  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-family: "Fredoka One";
+  src: url("../fonts/FredokaOne-Regular.ttf") format("truetype");
 }
+
 body {
-  font-family: var(--text-paragraph), sans-serif;
+  font-family: var(--text-paragraph), Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   min-height: 100vh;
   margin: 0px auto;
@@ -14,9 +15,9 @@ body {
 }
 
 h1,
-h2,
-h3 {
-  font-size: var(--text-heading);
+h2 {
+  font-family: var(--text-heading);
+  color: white;
 }
 
 h1 {
@@ -26,13 +27,28 @@ h1 {
 
 h2 {
   font-size: 25px;
-  font-weight: bold;
   text-align: center;
 }
 
 h3 {
   font-size: 20px;
   font-weight: bold;
+  color: white;
+}
+
+.small_cta {
+  display: inline-block;
+  background-color: white;
+  padding: 10px 28px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.rounded {
+  border-top: 3px solid white;
+  border-radius: 5px;
+  margin: 20px;
 }
 
 /*header*/

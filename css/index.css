@@ -1,0 +1,42 @@
+.main_events,
+.main_explore {
+  padding: 20px;
+  text-align: center;
+}
+
+.home_events_container,
+.home_explore_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main_events img,
+.main_explore img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.home_events {
+  display: block;
+  background: #8b13c3;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.main_explore {
+  background-color: #075f5f;
+}
+
+.home_explore {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+}

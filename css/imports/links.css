@@ -3,7 +3,8 @@ a {
   cursor: pointer;
 }
 
-nav ul li a {
+nav ul li a,
+footer a {
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -14,7 +15,8 @@ nav ul li a {
 
 .active,
 a:hover {
-  background: #8b13c3;
+  background: #a21085;
+  color: white;
   transition: 0.5s;
 }
 
@@ -25,4 +27,9 @@ footer a {
   display: block;
   max-width: 100px;
   border-radius: 3px;
+}
+
+.small_cta,
+a:hover {
+  background: #075f5f;
 }
