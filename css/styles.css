@@ -88,7 +88,7 @@ nav li {
 .menu-btn {
   font-size: 30px;
   float: right;
-  margin: 40px;
+  margin: 30px;
   cursor: pointer;
 }
 
@@ -109,13 +109,23 @@ nav {
   color: white;
 }
 
+.main-cover-content {
+  display: block;
+  text-align: center;
+}
+
 .main-cover {
   margin: 0;
   padding: 0;
   position: relative;
   width: 100%;
-  height: 300px;
-  background: linear-gradient(90deg, #f0027f, #75489f);
+  height: 400px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 112, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   overflow: hidden;
 }
 
