@@ -28,8 +28,3 @@ footer a {
   max-width: 100px;
   border-radius: 3px;
 }
-
-.small_cta,
-a:hover {
-  background: #075f5f;
-}

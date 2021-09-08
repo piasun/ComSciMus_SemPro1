@@ -5,22 +5,26 @@
   }
 
   .home_explore_container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
   }
 
   .rounded {
     display: none;
   }
 
-  .main_events img,
-  .main_explore img {
+  .main_events img {
     display: inline-block;
+    min-height: 141px;
   }
 
   .home_events,
   .home_explore {
     max-width: 455px;
+  }
+
+  .home_events_content,
+  .home_explore_content {
+    display: inline-block;
   }
 }
 
@@ -46,5 +50,21 @@
     display: inline-block;
     padding: 10px;
     color: white;
+  }
+
+  .main_events img {
+    display: inline-block;
+    max-height: 235px;
+  }
+
+  .home_explore_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .main_explore img {
+    display: inline-block;
+    min-height: 131px;
+    max-height: 220px;
   }
 }

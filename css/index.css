@@ -12,26 +12,18 @@
   width: 100%;
 }
 
-.main_events img,
+.main_events img {
+  width: 100%;
+  border-radius: 5px;
+  max-height: 206px;
+}
+
 .main_explore img {
   width: 100%;
   border-radius: 5px;
 }
 
-.home_events {
-  display: block;
-  background: #8b13c3;
-  padding: 20px;
-  text-align: center;
-  color: white;
-  border-radius: 5px;
-  margin: 10px;
-}
-
-.main_explore {
-  background-color: #075f5f;
-}
-
+.home_events,
 .home_explore {
   display: block;
   padding: 20px;
@@ -39,4 +31,11 @@
   color: white;
   border-radius: 5px;
   margin: 10px;
+}
+.home_events {
+  background: #8b13c3;
+}
+
+.main_explore {
+  background-color: #075f5f;
 }
