@@ -1,6 +1,5 @@
 @media (min-width: 600px) {
-  .main_events_container,
-  .exhibition_container {
+  .main_events_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -41,7 +40,24 @@
   .kids_birthday {
     border-right: 3px solid white;
   }
-  .exhibition_spaces img {
+
+  .exhibition_content {
+    display: flex;
+  }
+
+  .exhibition_content > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .exhibition_content {
+    align-items: stretch;
+    padding: 20px;
+  }
+  .exhibition_text {
+    max-width: 455px;
+    margin-left: 20px;
   }
 }
 
@@ -85,13 +101,19 @@
   }
 
   .events_container,
-  .webinar_container,
-  .exhibition_container {
+  .webinar_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .kids_corner_container {
+  .kids_corner_container,
+  .exhibition_content {
     justify-content: center;
+  }
+
+  .visit_location {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-end;
   }
 }

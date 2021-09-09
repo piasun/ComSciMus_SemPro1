@@ -1,0 +1,63 @@
+.visit-container_location {
+  display: block;
+  color: black;
+  padding: 20px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.visit-container_location img {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.visit-container_location h2,
+.visit_information h3 {
+  background: #917bdb;
+  border-radius: 2px;
+}
+
+.visit-container-column {
+  margin: 0 10px;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.visit-opening-hours tr {
+  text-align: left;
+}
+
+.visit-opening-hours td {
+  text-align: right;
+}
+
+.visit-opening-hours td {
+  padding: 0 0 0 15px;
+}
+
+.visit_tour {
+  display: block;
+  background-color: #45b7bf;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.visit_information {
+  display: block;
+}
+
+.visit_icon {
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
+.visit_information i {
+  background-color: white;
+  color: #a21085;
+  font-size: 1.9em;
+  padding: 10px;
+}
