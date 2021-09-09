@@ -1,0 +1,16 @@
+.exhibition_spaces {
+  padding: 20px;
+  text-align: center;
+}
+
+.exhibition_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+}
+
+.exhibition_spaces img {
+  width: 100%;
+  border-radius: 50px;
+}
