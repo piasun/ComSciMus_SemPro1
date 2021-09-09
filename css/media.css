@@ -57,6 +57,9 @@
     max-height: 235px;
   }
 
+  .home_events_container {
+  }
+
   .home_explore_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
