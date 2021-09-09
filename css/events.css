@@ -19,7 +19,8 @@
   width: 100%;
 }
 
-.events {
+.events,
+.webinar {
   display: block;
   color: white;
   text-align: left;
@@ -28,6 +29,7 @@
 }
 
 .events img,
+.webinar img,
 .kids_birthday img,
 .science_club img {
   width: 100%;
@@ -41,6 +43,7 @@
 .main_kids_corner {
   text-align: center;
   padding: 20px;
+  color: white;
 }
 
 .kids_corner_container {
@@ -61,6 +64,7 @@
 
 .kids_birthday {
   background: #a21085;
+  text-align: center;
 }
 
 .science_club {
@@ -68,5 +72,6 @@
 }
 
 .science_club_content {
+  display: block;
   align-items: center;
 }

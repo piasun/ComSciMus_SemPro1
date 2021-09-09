@@ -1,5 +1,7 @@
 @media (min-width: 600px) {
-  .main_events_container {
+  .main_events_container,
+  .events_container,
+  .webinar_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -71,9 +73,15 @@
     align-items: stretch;
   }
 
-  .main_explore_container {
+  .main_explore_container,
+  .events_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .webinar_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .main_explore img {
