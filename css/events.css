@@ -4,12 +4,11 @@
   text-align: center;
 }
 
-.home_events {
-  background: #917bdb;
-}
-
-.home_webinar {
+.home_events h2,
+.home_webinar h2,
+.kids_corner_info h2 {
   background: #45b7bf;
+  border-radius: 2px;
 }
 
 .events_container,
@@ -41,8 +40,13 @@
   padding: 10px 20px;
 }
 
-.main_kids_corner,
 .webinar_info {
+  background: #917bdb;
+}
+
+.webinar_info,
+.main_kids_corner,
+.kids_corner_container {
   text-align: center;
   padding: 20px;
   color: white;
@@ -50,10 +54,10 @@
 
 .kids_corner_container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-direction: column;
   color: white;
-  padding: 20px;
+  width: 100%;
 }
 
 .kids_corner_container h3 {
@@ -74,10 +78,4 @@
 
 .kids_birthday {
   text-align: center;
-  border-right: 3px solid white;
-}
-
-.science_club_content {
-  display: block;
-  align-items: center;
 }

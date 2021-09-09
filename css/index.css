@@ -1,5 +1,5 @@
 .main_events,
-.main_explore {
+.main_education {
   padding: 20px;
   text-align: center;
 }
@@ -11,7 +11,7 @@
   width: 100%;
 }
 
-.main_explore_container {
+.main_education_container {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -24,13 +24,13 @@
   max-height: 206px;
 }
 
-.main_explore img {
+.main_education img {
   width: 100%;
   border-radius: 5px;
 }
 
 .main_events_content,
-.main_explore_content {
+.main_education_content {
   display: block;
   padding: 20px;
   text-align: center;
@@ -38,10 +38,13 @@
   border-radius: 5px;
   margin: 10px;
 }
-.main_events_content {
-  background: #8b13c3;
+
+.main_events h2 {
+  background: #917bdb;
+  border-radius: 2px;
 }
 
-.main_explore {
-  background-color: #075f5f;
+.main_education h2 {
+  background-color: #45b7bf;
+  border-radius: 2px;
 }
