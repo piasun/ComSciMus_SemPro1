@@ -1,0 +1,72 @@
+.home_events,
+.home_webinar {
+  padding: 20px;
+  text-align: center;
+}
+
+.home_events {
+  background: #8b13c3;
+}
+
+.home_webinar {
+  background: #075f5f;
+}
+
+.events_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+}
+
+.events {
+  display: block;
+  color: white;
+  text-align: left;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.events img,
+.kids_birthday img,
+.science_club img {
+  width: 100%;
+}
+
+.events p,
+.events h3 {
+  padding: 10px 20px;
+}
+
+.main_kids_corner {
+  text-align: center;
+  padding: 20px;
+}
+
+.kids_corner_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: white;
+}
+
+.kids_corner_container h3 {
+  text-align: center;
+}
+
+.kids_birthday,
+.science_club {
+  padding: 20px;
+}
+
+.kids_birthday {
+  background: #a21085;
+}
+
+.science_club {
+  background: #075f5f;
+}
+
+.science_club_content {
+  align-items: center;
+}

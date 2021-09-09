@@ -1,10 +1,10 @@
 @media (min-width: 600px) {
-  .home_events_container {
+  .main_events_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .home_explore_container {
+  .main_explore_container {
     align-items: center;
   }
 
@@ -17,14 +17,22 @@
     min-height: 141px;
   }
 
-  .home_events,
-  .home_explore {
+  .main_events_content,
+  .main_explore_content {
     max-width: 455px;
   }
 
-  .home_events_content,
-  .home_explore_content {
+  .main_explore_text {
     display: inline-block;
+  }
+
+  .kids_corner_container {
+    flex-direction: row;
+  }
+
+  .kids_birthday,
+  .science_club {
+    width: 100%;
   }
 }
 
@@ -57,13 +65,13 @@
     max-height: 235px;
   }
 
-  .home_events_container {
+  .main_events_container {
     display: flex;
     flex-direction: row;
     align-items: stretch;
   }
 
-  .home_explore_container {
+  .main_explore_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
@@ -72,5 +80,9 @@
     display: inline-block;
     min-height: 131px;
     max-height: 220px;
+  }
+
+  .kids_corner_container {
+    justify-content: center;
   }
 }

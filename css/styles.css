@@ -46,6 +46,32 @@ h3 {
   text-align: center;
 }
 
+.subscribe-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.subscribe_form {
+  border-color: black;
+  color: black;
+  display: flex;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.subscribe_form input {
+  padding: 10px;
+  min-width: 150px;
+}
+
+.subscribe_cta {
+  background-color: var(--main-color);
+  color: white;
+  text-decoration: none;
+  padding: 10px 28px;
+}
+
 .rounded {
   border-top: 3px solid white;
   border-radius: 5px;

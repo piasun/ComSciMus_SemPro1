@@ -4,8 +4,8 @@
   text-align: center;
 }
 
-.home_events_container,
-.home_explore_container {
+.main_events_container,
+.main_explore_container {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -23,8 +23,8 @@
   border-radius: 5px;
 }
 
-.home_events,
-.home_explore {
+.main_events_content,
+.main_explore_content {
   display: block;
   padding: 20px;
   text-align: center;
@@ -32,7 +32,7 @@
   border-radius: 5px;
   margin: 10px;
 }
-.home_events {
+.main_events_content {
   background: #8b13c3;
 }
 

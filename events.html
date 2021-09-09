@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore together with us at Community Science Museum" />
-    <title>Community Science Museum | Home</title>
+    <meta name="description" content="Explore our exciting events at Community Science Museum" />
+    <title>Community Science Museum | Events</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/events.css" rel="stylesheet" />
     <link href="CSS/styles.css" rel="stylesheet" />
     <link href="CSS/media.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
@@ -23,8 +23,8 @@
         <label for="menu-icon" class="menu-btn"><i class="fas fa-bars"></i></label>
         <nav>
             <ul>
-                <li><a href="index.html" class="active">HOME</a></li>
-                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="events.html"class="active">EVENTS</a></li>
                 <li><a href="exhibition.html">EXHIBITION</a></li>
                 <li><a href="education.html">EDUCATION</a></li>
                 <li><a href="visit.html">VISIT</a></li>
@@ -67,9 +67,79 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="home_webinar">
+            <h2>WEBINARS</h2>
+            <div class="events_container">
+                <div class="events">
+                    <img src="images/events_night.jpg" alt="girl as an astronaut pointing at a globe">
+                    <h3>Night in the museum</h3>
+                    <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.</p>
+                </div>
+                <div class="events">
+                    <img src="images/energetica.jpg" alt="children looking at planets">
+                    <h3>Visiting Professor of Aeronautics</h3>
+                    <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
+                </div>
+                <div class="events">
+                    <img src="images/aeronautics.jpg" alt="A professor looking into a machine for scientist">
+                    <h3>Energetica Exhibition on Loan</h3>
+                    <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.</p>
+                </div>
+                <div class="events">
+                    <img src="images/bonecollector.jpg" alt="skelettons placed disposed in a glass frame at a museum">
+                    <h3>Night in the museum</h3>
+                    <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. It’s a series of installations that allow visitors to experience the power of the elements as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.</p>
+                </div>
+            </div>
         </section>
-        <section></section>
+        <section class="main_kids_corner">
+            <h2>KIDS CORNER</h2>
+            <hr class="rounded">
+                <p>Are you a young person looking to learn more about science? 
+                    Come on down to our museum, there’s plenty to see and do.
+                    You can learn about Newtonian physics from our bumper swing, 
+                    or why not travel back in time and meet our resident Woolly Mammoth?</p>                    
+                <p>Our exhibits are designed to be accessible 
+                    for interested minds, so make sure you come ready to learn and explore.
+                    We also have the Young Stars club which meets once a week on a Saturday 
+                    between 10:00 and 13:00 where you’ll get to explore and experiment with 
+                    our team of experts.</p>                    
+                <p>During the school holidays we run special holiday clubs where you can join other children 
+                    your age to go on a journey of discovery. Each holiday we pick a new theme to explore. 
+                    To find out more about the holiday club and how you can join, send us a message.</p>                    
+        </section>
+        <div class="kids_corner_container">
+            <section class="kids_birthday">
+                <h3>Plan your birthday</h3>
+                <img src="images/explore_kids.jpg" alt="children looking at scientific experiment">
+                <p>Celebrate your birthday with explotions or other cool experiments. Gather your friends and make them never forget your birthday</p>
+            </section>
+            <section class="science_club">
+                <h3>Join our Science Club</h3>
+                <div>
+                    <img src="images/science_club.jpg" alt="drawing of kids and scientific symbols">
+                </div>
+                <div class="science_club_content">
+                    <p>Join our Science Club and get:</p>
+                    <ul>
+                        <li>the latest news</li>
+                        <li>invitations for upcomming events</li>
+                        <li>special offers</li>
+                    </ul>
+                    <p>Enter your email and we will be in touch</p> 
+                </div>    
+                <div>       
+                    <form class="subscribe_form">
+                      <div>
+                          <input id="email" type="email" pattern="[a-z0-9._%+-]+@[a-z]{2,3}$" placeholder="Enter your email here" aria-label="Email" required>
+                      </div> 
+                      <div>
+                          <button type="submit" class="subscribe_cta">Subscribe</button>
+                      </div> 
+                    </form>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <div class="footer-container">
@@ -121,8 +191,8 @@
                 </table>
             </div>
             <div class="footer-container-column footer-navigation">
-                <a href="index.html" class="active">HOME</a>
-                <a href="events.html">EVENTS</a>
+                <a href="index.html">HOME</a>
+                <a href="events.html"class="active">EVENTS</a>
                 <a href="exhibition.html">EXHIBITION</a>
                 <a href="education.html">EDUCATION</a>
                 <a href="visit.html">VISIT</a>
