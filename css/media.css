@@ -1,13 +1,12 @@
 @media (min-width: 600px) {
-  .main_events_container,
-  .events_container,
-  .webinar_container {
+  .main_events_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 
   .main_explore_container {
-    align-items: center;
+    flex-direction: row;
+    align-items: stretch;
   }
 
   .rounded {
@@ -73,24 +72,17 @@
     align-items: stretch;
   }
 
-  .main_explore_container,
-  .events_container {
+  .main_explore_container {
+    justify-content: center;
+  }
+
+  .events_container,
+  .webinar_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .webinar_container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .main_explore img {
-    display: inline-block;
-    min-height: 131px;
-    max-height: 220px;
-  }
-
   .kids_corner_container {
-    justify-content: center;
+    flex-direction: row;
   }
 }

@@ -4,10 +4,16 @@
   text-align: center;
 }
 
-.main_events_container,
-.main_explore_container {
+.main_events_container {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main_explore_container {
+  display: flex;
+  justify-content: space-around;
   flex-direction: column;
   width: 100%;
 }
