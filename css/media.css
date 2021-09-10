@@ -119,6 +119,10 @@
     justify-content: center;
   }
 
+  .information_container {
+    font-size: 1.1em;
+  }
+
   .events_container,
   .webinar_container,
   .get-involved_container {

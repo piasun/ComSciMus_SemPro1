@@ -30,17 +30,14 @@
   padding: 0 0 0 15px;
 }
 
-.visit_tour {
-  display: block;
-  background: rgb(241, 212, 225);
+.information_container {
+  background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
-    rgba(241, 212, 225, 1) 0%,
-    rgba(139, 19, 195, 1) 100%
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 112, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
   );
-  text-align: center;
-  font-weight: bold;
-  padding: 20px;
 }
 
 .visit_information {
