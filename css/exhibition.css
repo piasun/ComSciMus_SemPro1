@@ -3,11 +3,6 @@
   text-align: center;
 }
 
-.exhibition_spaces h2 {
-  background: #917bdb;
-  border-radius: 2px;
-}
-
 .exhibition_container {
   display: flex;
   justify-content: space-evenly;

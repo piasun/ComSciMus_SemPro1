@@ -37,6 +37,10 @@ h3 {
   color: var(--main-color);
 }
 
+p {
+  color: var(--main-color);
+}
+
 .small_cta {
   display: inline-block;
   background-color: white;

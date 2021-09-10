@@ -1,18 +1,7 @@
-p {
-  color: var(--main-color);
-}
-
 .home_events,
 .home_webinar {
   padding: 20px;
   text-align: center;
-}
-
-.home_events h2,
-.home_webinar h2,
-.kids_corner_info h2 {
-  background: #45b7bf;
-  border-radius: 2px;
 }
 
 .events_container,
@@ -44,8 +33,9 @@ p {
   padding: 10px 20px;
 }
 
-.webinar_info {
-  background: #ae9fe5;
+.webinar_info,
+.main_kids_corner {
+  background: white;
 }
 
 .webinar_info,
@@ -53,14 +43,12 @@ p {
 .kids_corner_container {
   text-align: center;
   padding: 20px;
-  color: white;
 }
 
 .kids_corner_container {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  color: white;
   width: 100%;
 }
 

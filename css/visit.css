@@ -12,11 +12,6 @@
   margin-top: 10px;
 }
 
-.visit-container_location h2 {
-  background: #917bdb;
-  border-radius: 2px;
-}
-
 .visit-container-column {
   margin: 0 10px;
   min-width: 200px;
@@ -37,8 +32,7 @@
 
 .visit_tour {
   display: block;
-  background-color: #45b7bf;
-  color: white;
+  background-color: white;
   text-align: center;
   font-weight: bold;
   padding: 20px;
@@ -49,7 +43,6 @@
 }
 
 .visit_information h3 {
-  color: #640751;
   font-weight: bold;
 }
 
@@ -64,4 +57,8 @@
   font-size: 5em;
   padding: 10px;
   border-radius: 2px;
+}
+
+.subscribe-container {
+  background: white;
 }
