@@ -28,6 +28,19 @@
   max-height: 206px;
 }
 
+.home_information_container {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 112, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 20px 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
 .main_education img {
   width: 100%;
   border-radius: 5px;

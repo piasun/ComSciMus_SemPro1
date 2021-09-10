@@ -33,9 +33,19 @@
   padding: 10px 20px;
 }
 
-.webinar_info,
+.webinar_info {
+  background: rgb(241, 212, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 212, 225, 1) 0%,
+    rgba(139, 19, 195, 1) 100%
+  );
+  color: white;
+  font-weight: bold;
+}
+
 .main_kids_corner {
-  background: white;
+  background: #c2c7e5;
 }
 
 .webinar_info,

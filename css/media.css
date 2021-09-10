@@ -9,10 +9,6 @@
     align-items: stretch;
   }
 
-  .rounded {
-    display: none;
-  }
-
   .main_events img {
     display: inline-block;
     min-height: 141px;
@@ -37,27 +33,50 @@
     width: 100%;
   }
 
-  .kids_birthday {
-    border-right: 3px solid white;
+  .main_education_container .rounded,
+  .main_kids_corner .rounded,
+  .kids_birthday .rounded {
+    display: none;
   }
 
-  .exhibition_content {
+  .kids_birthday {
+    border-right: 3px solid #a21085;
+  }
+
+  .exhibition_content,
+  .education_content {
     display: flex;
   }
 
-  .exhibition_content > * {
+  .exhibition_content > *,
+  .education_content > * {
     flex: 1;
     display: flex;
     flex-direction: column;
   }
 
-  .exhibition_content {
+  .exhibition_content,
+  .education_content {
     align-items: stretch;
     padding: 20px;
   }
   .exhibition_text {
     max-width: 455px;
     margin-left: 20px;
+  }
+
+  .education_container .rounded {
+    margin: 0;
+  }
+
+  .education_content h2,
+  .education_text {
+    text-align: left;
+  }
+
+  .education_text {
+    max-width: 455px;
+    margin-right: 20px;
   }
 }
 
@@ -101,7 +120,8 @@
   }
 
   .events_container,
-  .webinar_container {
+  .webinar_container,
+  .get-involved_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
