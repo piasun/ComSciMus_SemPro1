@@ -12,8 +12,7 @@
   margin-top: 10px;
 }
 
-.visit-container_location h2,
-.visit_information h3 {
+.visit-container_location h2 {
   background: #917bdb;
   border-radius: 2px;
 }
@@ -49,6 +48,11 @@
   display: block;
 }
 
+.visit_information h3 {
+  color: #640751;
+  font-weight: bold;
+}
+
 .visit_icon {
   display: block;
   text-align: center;
@@ -56,8 +60,8 @@
 }
 
 .visit_information i {
-  background-color: white;
   color: #a21085;
-  font-size: 1.9em;
+  font-size: 5em;
   padding: 10px;
+  border-radius: 2px;
 }
