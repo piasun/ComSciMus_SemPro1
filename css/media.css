@@ -1,9 +1,4 @@
 @media (min-width: 600px) {
-  .main_events_container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .main_education_container,
   .subscription-event-container,
   .subscription-exhibition-container,
@@ -12,21 +7,12 @@
     align-items: stretch;
   }
 
-  .main_events img {
-    display: inline-block;
-    min-height: 141px;
-  }
-
   .main_events_content,
   .main_education_content,
   .subscription_content_events,
   .subscription_content_exhiitions,
   .subscription_content_education {
     max-width: 455px;
-  }
-
-  .main_education_text {
-    display: inline-block;
   }
 
   .kids_corner_container {
@@ -119,12 +105,8 @@
     color: white;
   }
 
-  .main_events img {
-    display: inline-block;
-    max-height: 235px;
-  }
-
-  .main_events_container {
+  .main_events_container,
+  .main_webinars_container {
     display: flex;
     flex-direction: row;
     align-items: stretch;

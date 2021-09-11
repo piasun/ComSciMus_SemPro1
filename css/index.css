@@ -1,14 +1,12 @@
 .main_events,
+.main_webinars,
 .main_education {
   padding: 20px;
   text-align: center;
 }
 
-.main_education {
-  background: white;
-}
-
-.main_events_container {
+.main_events_container,
+.main_webinars_container {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -22,10 +20,10 @@
   width: 100%;
 }
 
-.main_events img {
+.main_events img,
+.main_webinars img {
   width: 100%;
   border-radius: 5px;
-  max-height: 206px;
 }
 
 .information_container {
@@ -44,16 +42,12 @@
 }
 
 .main_events_content,
-.main_education_content {
+.main_webinars_content,
+.main_education_content,
+.main_education_text {
   display: block;
   padding: 20px;
-  text-align: center;
-  color: var(--main-color);
   font-weight: bold;
   border-radius: 5px;
   margin: 10px;
-}
-
-.main_events_content h3 {
-  color: #640751;
 }
