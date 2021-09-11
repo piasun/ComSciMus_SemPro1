@@ -77,7 +77,7 @@ p {
 .subscribe_form {
   border-color: black;
   color: black;
-  display: flex;
+  display: inline-flex;
   border-radius: 5px;
   margin-bottom: 20px;
 }
