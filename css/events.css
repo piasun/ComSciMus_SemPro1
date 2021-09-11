@@ -48,14 +48,12 @@
 }
 
 .main_kids_corner {
-  background: #c2c7e5;
+  padding: 20px;
+  text-align: center;
 }
 
-.webinar_info,
-.main_kids_corner,
-.kids_corner_container {
-  text-align: center;
-  padding: 20px;
+.kids_corner_info {
+  background: #c2c7e5;
 }
 
 .kids_corner_container {
@@ -63,10 +61,7 @@
   justify-content: space-around;
   flex-direction: column;
   width: 100%;
-}
-
-.kids_corner_container h3 {
-  text-align: center;
+  margin: 10px;
 }
 
 .kids_corner_info,
@@ -79,8 +74,4 @@
 .science_club {
   padding: 20px;
   max-width: 455px;
-}
-
-.kids_birthday {
-  text-align: center;
 }

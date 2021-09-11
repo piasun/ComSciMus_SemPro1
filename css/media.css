@@ -59,12 +59,9 @@
 
   .exhibition_content > *,
   .education_content > *,
-  .subscription_content_events
-    > *
-    .subscription_content_exhibitions
-    > *
-    .subscription_content_education
-    > * {
+  .subscription_content_events > *,
+  .subscription_content_exhibitions > *,
+  .subscription_content_education > * {
     flex: 1;
     display: flex;
     flex-direction: column;
