@@ -1,32 +1,46 @@
-.main_subscription {
-  padding: 20px;
-  text-align: center;
-}
-
-.main_subscription img {
-  width: 100%;
-  border-radius: 5px;
-  margin: 10px 0;
-}
-
-.subscription-container {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  width: 100%;
-}
-
 .thank-you {
   display: block;
   margin: 20px;
   text-align: center;
 }
 
-.subscription_theme {
-  display: block;
+.subscription-event-main,
+.subscription-exhibition-main,
+.subscription-education-main {
+  padding: 20px;
   text-align: center;
+}
+
+.subscription-event-container,
+.subscription-exhibition-container,
+.subscription-education-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+}
+
+.subscription-event-main img,
+.subscription-education-main img {
+  width: 100%;
   border-radius: 5px;
-  margin: 10px;
+  margin: 10px 0;
+}
+
+.subscription_content_events,
+.subscription_content_exhibitions,
+.subscription_content_education {
+  display: block;
+  margin: 20px;
+}
+
+.subscription-exhibition-main img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.subscription-exhibition-main {
+  background: #c2c7e5;
 }
 
 h3 {

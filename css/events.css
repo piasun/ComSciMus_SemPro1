@@ -22,10 +22,15 @@
 }
 
 .events img,
-.webinar img,
+.webinar img {
+  width: 100%;
+  border-radius: 5px;
+}
+
 .kids_birthday img,
 .science_club img {
   width: 100%;
+  border-radius: 50%;
 }
 
 .events p,
