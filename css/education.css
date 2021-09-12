@@ -15,7 +15,8 @@
   display: block;
   color: white;
   text-align: left;
-  margin: 20px;
+  margin: 20px auto;
+  max-width: 960px;
 }
 
 .education p {

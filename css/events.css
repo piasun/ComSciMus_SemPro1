@@ -58,7 +58,6 @@
 
 .kids_corner_container {
   display: flex;
-  justify-content: space-around;
   flex-direction: column;
   width: 100%;
   margin: 10px;

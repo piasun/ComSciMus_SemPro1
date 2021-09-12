@@ -1,5 +1,6 @@
 @media (min-width: 600px) {
   .main_education_container,
+  .kids_corner_container,
   .subscription-event-container,
   .subscription-exhibition-container,
   .subscription-education-container {
@@ -15,13 +16,9 @@
     max-width: 455px;
   }
 
-  .kids_corner_container {
-    flex-direction: row;
-    align-items: stretch;
-  }
-
   .kids_birthday,
-  .science_club {
+  .science_club,
+  .exhibition_content {
     width: 100%;
   }
 

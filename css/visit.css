@@ -4,6 +4,8 @@
   padding: 20px;
   text-align: left;
   border-radius: 5px;
+  max-width: 960px;
+  margin: 20px auto;
 }
 
 .visit-container_location img {

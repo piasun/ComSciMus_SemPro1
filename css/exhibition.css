@@ -14,10 +14,8 @@
 
 .exhibition_container {
   display: flex;
-  justify-content: space-evenly;
   flex-direction: column;
   width: 100%;
-  color: white;
 }
 
 .exhibition_spaces img {
@@ -28,7 +26,8 @@
 .exhibition_content {
   display: block;
   text-align: left;
-  margin: 20px;
+  margin: 20px auto;
+  max-width: 960px;
 }
 
 .exhibition_content_color {
