@@ -20,6 +20,11 @@
   width: 100%;
 }
 
+.subscription-exhibition-container {
+  max-width: 990px;
+  margin: 20px auto;
+}
+
 .subscription-event-main img,
 .subscription-education-main img {
   width: 100%;

@@ -62,6 +62,11 @@ p {
   margin: 20px auto;
 }
 
+.shortened p {
+  max-width: 960px;
+  margin: 20px auto;
+}
+
 .subscribe-container {
   background: white;
   display: flex;

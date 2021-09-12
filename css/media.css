@@ -53,7 +53,6 @@
   .exhibition_content,
   .education_content,
   .subscription_content_events,
-  .subscription_content_exhibitions,
   .subscription_content_education {
     align-items: stretch;
     padding: 20px;
