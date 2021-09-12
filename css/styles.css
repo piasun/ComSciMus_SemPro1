@@ -40,6 +40,16 @@ p {
   color: var(--main-color);
 }
 
+.main {
+  padding: 20px;
+  text-align: center;
+}
+
+.main img {
+  width: 100%;
+  border-radius: 5px;
+}
+
 .small_cta {
   display: inline-block;
   background-color: #7e1dab;

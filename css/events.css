@@ -1,9 +1,3 @@
-.home_events,
-.home_webinar {
-  padding: 20px;
-  text-align: center;
-}
-
 .events_container,
 .webinar_container {
   display: flex;
@@ -19,12 +13,6 @@
   text-align: left;
   border-radius: 5px;
   margin: 20px;
-}
-
-.events img,
-.webinar img {
-  width: 100%;
-  border-radius: 5px;
 }
 
 .kids_birthday img,
