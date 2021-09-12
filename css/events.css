@@ -56,6 +56,11 @@
   background: #c2c7e5;
 }
 
+.container p {
+  max-width: 960px;
+  margin: 20px auto;
+}
+
 .kids_corner_container {
   display: flex;
   flex-direction: column;
