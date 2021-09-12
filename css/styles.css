@@ -126,7 +126,7 @@ header img {
 nav {
   margin-left: 25px;
   display: none;
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 1000;
   right: 0px;
